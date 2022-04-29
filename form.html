@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head >
+   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML FORM</title>
+    <title>AJIT VIBHUTE HTML FORM</title>
     <link rel="stylesheet" href="Form.css">
+   </style>
 </head>
 
-<body>
-    <form>
+<body  >
+    
+   
         <header class="headerContainer">
-            <h1>FORM INPUT FEILDS</h1>
+            <h1 style="color:blue">User Registration Form</h1>
         </header>
 
         <div>
-            <label for="text"> NAME : </label>
+            <label for="text" style="color:blue"> NAME : </label>
             <input type="text" placeholder="Enter your Name" id="text" name="text" required>
             <error-output class="text-error" for="text"></error-output>
         </div>
 
         <div>
-            <label for="pwd"> PASSWORD : </label>
+            <label for="pwd"style="color:blue" > PASSWORD : </label>
             <input type="password" placeholder="Enter your Password" id="pwd" name="pwd" required>
             <error-output class="pwd-error" for="pwd"></error-output>
         </div>
 
         <div>
-            <label for="email"> EMAIL : </label>
+            <label for="email" style="color:blue"> EMAIL : </label>
             <input type="email" placeholder="Enter your Email" id="email" name="email">
             <error-output class="email-error" for="email"></error-output>
         </div>
 
         <div>
-            <label for="url"> URL : </label>
+            <label for="url" style="color:blue" > URL : </label>
             <input type="url" placeholder="Enter your URL" id="url" name="url">
         </div>
 
         <div>
-            <label for="tel"> MOBILE NUMBER : </label>
+            <label for="tel" style="color:rgb(4, 41, 253)" > MOBILE NUMBER : </label>
             <input type="tel" placeholder="Enter your Telephone Number" id="tel" name="tel">
         </div>
 
         <div class="nativeDateTimePicker">
-            <label for="party"> CHOOSE A DATE AND TIME : </label>
+            <label for="party" style="color:rgb(6, 22, 245)"> CHOOSE A DATE AND TIME : </label>
             <input type="datetime-local" placeholder="Enter date and time" id="party" name="bday">
 
         </div>
 
         <div>
-            <label for="salary"> CHOOSE YOUR SALARY : </label>
+            <label for="salary" style="color:rgb(8, 23, 240)"> CHOOSE YOUR SALARY : </label>
             <input type="range" placeholder="Enter date and time" id="salary" name=salary" min="300000" max="500000"
                 step="100" value="400000">
             <output class="salary-output" for="salary">400000</output>
         </div>
 
         <div>
-            <button>Submit</button>
+            <button style="color:rgb(236, 22, 190)">Submit</button>
         </div>
 
     </form>
