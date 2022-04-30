@@ -5,6 +5,8 @@ body {
     
     background-image: url('1.jpg');
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 35% 70%;
     width: 100%;
     max-width: 60%;
     margin: 0px auto;
